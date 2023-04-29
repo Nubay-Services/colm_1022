@@ -8,6 +8,7 @@
             "email": "jill@handmangroup.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "drupal/color_field": "^3.0",
         "drupal/paragraphs": "^1.15",
