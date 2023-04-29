@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_button_link
+    - paragraphs.paragraphs_type.columns
+  module:
+    - link
+_core:
+  default_config_hash: BccaS73EMT3I48g502ClWLGbD7n_Erv7OsR-FUMXreI
+id: paragraph.columns.field_button_link
+field_name: field_button_link
+entity_type: paragraph
+bundle: columns
+label: 'Button Link'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

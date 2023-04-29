@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a paragraph.
+ * @see template_preprocess_paragraph()
+ *
+ * @ingroup themeable
+ */
+#}
+
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    'paragraph-id--' ~ paragraph.id(),
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+  ]
+%}
+
+{% if paragraph.field_background_color_option.0.value.color|render %}
+  {% set backColor = paragraph.field_background_color_option.0.value.color %}
+{% endif %}
+
+{% block paragraph %}
+	<div{{attributes.addClass(classes, 'container')}}>
+    <div class="block-padding" style="background-color:{{ backColor }}; height:100%">
+{{ content }}
+    </div>
+	</div>
+{% endblock paragraph %}

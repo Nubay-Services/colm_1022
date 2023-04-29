@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Paragraph columns module file.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+function paragraph_columns_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'paragraph_columns/columns';
+}
+
+/**
+ * Implements hook_theme().
+ */
+function paragraph_columns_theme($existing, $type, $theme, $path) {
+  return [
+    'paragraph__columns' => [
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__text' => [
+      'base hook' => 'paragraph',
+    ],
+  ];
+}

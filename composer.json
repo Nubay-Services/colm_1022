@@ -1,0 +1,16 @@
+{
+    "name": "packages/paragraph_columns",
+    "description": "Creates a wrapper paragraph type for multicolumn paragraphs",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "Jill Handman",
+            "email": "jill@handmangroup.com"
+        }
+    ],
+    "require": {
+        "drupal/color_field": "^3.0",
+        "drupal/paragraphs": "^1.15",
+        "drupal/twig_tweak": "^3.2"
+    }
+}

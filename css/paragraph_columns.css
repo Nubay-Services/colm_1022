@@ -1,0 +1,92 @@
+.paragraph--type--columns .field-name-field-view-selection {
+  margin-bottom: 0;
+}
+.paragraph--type--columns .field-paragraph--field-element-intro-text {
+  margin-bottom: 25px;
+}
+.paragraph--type--columns .col {
+  position: relative;
+}
+.paragraph--type--columns.gray-back {
+  padding-bottom: 30px;
+}
+.paragraph--type--columns h2.element-title {
+  padding-top: 0;
+}
+.paragraph--type--columns .clearfix{
+  clear: both;
+}
+.paragraph--type--columns .btn {
+  width: auto;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  white-space: nowrap;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 0.625em;
+}
+
+.paragraph--type--columns .field-paragraph--field-button-link a {
+  text-align: center;
+  line-height: 2rem;
+}
+
+@media all and (min-width: 1025px) {
+
+  .paragraph--type--columns .col {
+    overflow: hidden;
+  }
+
+  .paragraph--type--columns .col.col-2 {
+    width: 16%;
+    float: left;
+  }
+
+  .paragraph--type--columns .col.col-3 {
+    width: 25%;
+    float: left;
+  }
+
+  .paragraph--type--columns .col.col-4 {
+    width: 33.333%;
+    float: left;
+  }
+
+  .paragraph--type--columns .col.col-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .paragraph--type--columns .col.col-8 {
+    width: 66.666%;
+    float: left;
+  }
+
+  .paragraph--type--columns .col.gutters > div {
+    padding-left: 0.625em;
+    padding-right: 0.625em;
+  }
+
+  .paragraph--type--columns .col.gutters:first-of-type > div {
+    padding-left: 0;
+    padding-right: 0.625em;
+  }
+
+  .paragraph--type--columns .col.gutters:last-of-type > div {
+    padding-left: 0.625em;
+    padding-right: 0;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .paragraph--type--columns .col {
+    float: none;
+    overflow: hidden;
+  }
+}
+
+.block-padding {
+  padding: 25px;
+}
