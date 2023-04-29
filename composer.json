@@ -1,5 +1,5 @@
 {
-    "name": "packages/paragraph_columns",
+    "name": "handmangroup/paragraph_columns",
     "description": "Creates a wrapper paragraph type for multicolumn paragraphs",
     "type": "drupal-module",
     "authors": [
