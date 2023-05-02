@@ -4,7 +4,7 @@ dependencies:
   config:
     - field.field.paragraph.columns.field_pcol_add_gutters
     - field.field.paragraph.columns.field_pcol_background_color_option
-    - field.field.paragraph.columns.field_pcol_button_background_color
+    - field.field.paragraph.columns.field_pcol_btn_background_color
     - field.field.paragraph.columns.field_pcol_button_link
     - field.field.paragraph.columns.field_pcol_column_layout
     - field.field.paragraph.columns.field_pcol_element_intro_text
@@ -39,7 +39,7 @@ content:
     settings:
       default_colors: '#ac725e,#d06b64,#f83a22,#fa573c,#ff7537,#ffad46,#42d692,#16a765,#7bd148,#b3dc6c,#fbe983,#92e1c0,#9fe1e7,#9fc6e7,#4986e7,#9a9cff,#b99aff,#c2c2c2,#cabdbf,#cca6ac,#f691b2,#cd74e6,#a47ae2'
     third_party_settings: {  }
-  field_pcol_button_background_color:
+  field_pcol_btn_background_color:
     type: color_field_widget_box
     weight: 10
     region: content
