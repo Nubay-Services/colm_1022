@@ -2,8 +2,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.text.field_pcol_background_color_option
-    - field.field.paragraph.text.field_pcol_text
+    - field.field.paragraph.text.field_pc_bkgd_color_option
+    - field.field.paragraph.text.field_pc_text
     - paragraphs.paragraphs_type.text
   module:
     - text
@@ -14,7 +14,7 @@ targetEntityType: paragraph
 bundle: text
 mode: default
 content:
-  field_pcol_text:
+  field_pc_text:
     type: text_default
     label: hidden
     settings: {  }
@@ -22,4 +22,4 @@ content:
     weight: 0
     region: content
 hidden:
-  field_pcol_background_color_option: true
+  field_pc_bkgd_color_option: true

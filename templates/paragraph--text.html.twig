@@ -18,13 +18,13 @@
   ]
 %}
 
-{% if paragraph.field_pcol_background_color_option.0.value.color|render %}
-  {% set backColor = paragraph.field_pcol_background_color_option.0.value.color %}
+{% if paragraph.field_pc_bkgd_color_option.0.value.color|render %}
+  {% set backColor = paragraph.field_pc_bkgd_color_option.0.value.color %}
 {% endif %}
 
 {% block paragraph %}
 	<div{{attributes.addClass(classes, 'container')}}>
-    <div class="block-padding" style="background-color:{{ backColor }}; height:100%">
+    <div class="block-padding" style="bkgd-color:{{ backColor }}; height:100%">
 {{ content }}
     </div>
 	</div>

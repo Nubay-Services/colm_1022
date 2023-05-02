@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_pcol_number_of_columns
+    - field.storage.paragraph.field_pc_number_of_columns
     - paragraphs.paragraphs_type.columns
   module:
     - options
 _core:
   default_config_hash: NOA0mNw4KnjSoVv3g3Q8M92R558_m6EMu-6f6bEvC6E
-id: paragraph.columns.field_pcol_number_of_columns
-field_name: field_pcol_number_of_columns
+id: paragraph.columns.field_pc_number_of_columns
+field_name: field_pc_number_of_columns
 entity_type: paragraph
 bundle: columns
 label: 'Number of Columns'

@@ -2,20 +2,18 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_pcol_width
+    - field.storage.paragraph.field_pc_bkgd_color
     - paragraphs.paragraphs_type.columns
   module:
     - options
-_core:
-  default_config_hash: FMau3Oc259a1NlSgulzqmJV6O9kTp9fr0oy6DtTCMjI
-id: paragraph.columns.field_pcol_width
-field_name: field_pcol_width
+id: paragraph.columns.field_pc_bkgd_color
+field_name: field_pc_bkgd_color
 entity_type: paragraph
 bundle: columns
-label: Width
+label: 'Button Color'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -6,8 +6,8 @@ dependencies:
     - paragraphs
 _core:
   default_config_hash: IRUiml-RzyX7avk0GGJbNlNgbgbG2RZ303tJ79w4e5E
-id: paragraph.field_pcol_button_link
-field_name: field_pcol_button_link
+id: paragraph.field_pc_button_link
+field_name: field_pc_button_link
 entity_type: paragraph
 type: link
 settings: {  }

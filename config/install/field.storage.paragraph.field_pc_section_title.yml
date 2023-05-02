@@ -5,8 +5,8 @@ dependencies:
     - paragraphs
 _core:
   default_config_hash: YyRp9yYUnWy9xRdK-01iZlqNK9XeiBa9SEV7DejDvEU
-id: paragraph.field_pcol_section_title
-field_name: field_pcol_section_title
+id: paragraph.field_pc_section_title
+field_name: field_pc_section_title
 entity_type: paragraph
 type: string
 settings:

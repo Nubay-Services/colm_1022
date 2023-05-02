@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_pcol_element_intro_text
+    - field.storage.paragraph.field_pc_element_intro_text
     - paragraphs.paragraphs_type.columns
   module:
     - text
 _core:
   default_config_hash: XS2OSGDJQ6yRtnGjzDJtorjnjzevI6B8cq-27L-Oovg
-id: paragraph.columns.field_pcol_element_intro_text
-field_name: field_pcol_element_intro_text
+id: paragraph.columns.field_pc_element_intro_text
+field_name: field_pc_element_intro_text
 entity_type: paragraph
 bundle: columns
 label: 'Element Intro Text'

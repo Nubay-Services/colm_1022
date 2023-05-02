@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_pcol_element_selection
+    - field.storage.paragraph.field_pc_element_selection
     - paragraphs.paragraphs_type.columns
     - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
 _core:
   default_config_hash: VkEjbccpOzxaHU4615Z5slYgD7emCdrCXNSITiQJlq0
-id: paragraph.columns.field_pcol_element_selection
-field_name: field_pcol_element_selection
+id: paragraph.columns.field_pc_element_selection
+field_name: field_pc_element_selection
 entity_type: paragraph
 bundle: columns
 label: 'Element Selection'

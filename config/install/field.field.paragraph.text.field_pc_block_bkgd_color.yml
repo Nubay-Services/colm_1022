@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_pcol_block_background_color
+    - field.storage.paragraph.field_pc_block_bkgd_color
     - paragraphs.paragraphs_type.text
   module:
     - options
-id: paragraph.text.field_pcol_block_background_color
-field_name: field_pcol_block_background_color
+id: paragraph.text.field_pc_block_bkgd_color
+field_name: field_pc_block_bkgd_color
 entity_type: paragraph
 bundle: text
-label: 'Background Color'
+label: 'bkgd Color'
 description: ''
 required: false
 translatable: true

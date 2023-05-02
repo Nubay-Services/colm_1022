@@ -6,8 +6,8 @@ dependencies:
     - paragraphs
 _core:
   default_config_hash: fiQYqnhkw_LEX3SGJrnIN50xY4srW34LtXkVAPZAJQw
-id: paragraph.field_pcol_element_selection
-field_name: field_pcol_element_selection
+id: paragraph.field_pc_element_selection
+field_name: field_pc_element_selection
 entity_type: paragraph
 type: entity_reference_revisions
 settings:

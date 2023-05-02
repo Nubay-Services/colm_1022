@@ -4,27 +4,23 @@ dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.field_pcol_block_background_color
-field_name: field_pcol_block_background_color
+_core:
+  default_config_hash: oDoxuh-ELbNIK_qpEmwQ_zqoAktP1UlAgoikE6oT25s
+id: paragraph.field_pc_column_layout
+field_name: field_pc_column_layout
 entity_type: paragraph
 type: list_string
 settings:
   allowed_values:
     -
-      value: purple-back
-      label: purple
+      value: '50'
+      label: 50-50
     -
-      value: blue-back
-      label: blue
+      value: '75'
+      label: 75-25
     -
-      value: black-back
-      label: black
-    -
-      value: gray-back
-      label: gray
-    -
-      value: white-back
-      label: white
+      value: '25'
+      label: 75-25
   allowed_values_function: ''
 module: options
 locked: false

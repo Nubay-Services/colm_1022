@@ -18,13 +18,13 @@
 ]
 %}
 {% set columns = paragraph.field_pcol_number_of_columns.value %}
-{% if paragraph.field_pcol_background_color_option.0.value.color|render %}
-  {% set backColor = paragraph.field_pcol_background_color_option.0.value.color %}
+{% if paragraph.field_pcol_bkgd_color_option.0.value.color|render %}
+  {% set backColor = paragraph.field_pcol_bkgd_color_option.0.value.color %}
   {% set blockPadding = 'block-padding' %}
 {% endif %}
 {% set width = paragraph.field_pcol_width.value %}
 {% set layout = paragraph.field_pcol_column_layout.value %}
-{% set buttonBackColor = paragraph.field_pcol_button_background_color.0.value.color %}
+{% set buttonBackColor = paragraph.field_pcol_button_bkgd_color.0.value.color %}
 
   {% if layout == '75' %}
     {% set layout_1 = 'col-8' %}
@@ -42,7 +42,7 @@
 {% endif %}
 
 {% block paragraph %}
-  <div{{attributes.addClass(classes, blockPadding)}} style="background-color:{{ backColor }};">
+  <div{{attributes.addClass(classes, blockPadding)}} style="bkgd-color:{{ backColor }};">
     <section class="{{ width }}">
       <h2>{{ content.field_pcol_section_title }}</h2>
       {{ content.field_pcol_element_intro_text }}
@@ -70,8 +70,8 @@
       {% endif %}
 
 
-      {% if content.field_pcol_button_link|render %}
-        <div class="clearfix btn {{ gutters }}" style="background-color:{{ buttonBackColor }}"> {{ content.field_pcol_button_link }}</div>
+      {% if content.field_pc_button_link|render %}
+        <div class="clearfix btn {{ gutters }}" style="bkgd-color:{{ buttonBackColor }}"> {{ content.field_pcol_button_link }}</div>
       {% endif %}
     </section>
   </div>

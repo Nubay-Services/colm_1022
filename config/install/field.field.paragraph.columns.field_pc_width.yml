@@ -2,19 +2,21 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_pcol_section_title
+    - field.storage.paragraph.field_pc_width
     - paragraphs.paragraphs_type.columns
+  module:
+    - options
 _core:
-  default_config_hash: AOMLbmvIkUepmhmZr7P9fYxPbO5DCUVUCb92ruzTB1Q
-id: paragraph.columns.field_pcol_section_title
-field_name: field_pcol_section_title
+  default_config_hash: FMau3Oc259a1NlSgulzqmJV6O9kTp9fr0oy6DtTCMjI
+id: paragraph.columns.field_pc_width
+field_name: field_pc_width
 entity_type: paragraph
 bundle: columns
-label: 'Section Title'
+label: Width
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string
+field_type: list_string

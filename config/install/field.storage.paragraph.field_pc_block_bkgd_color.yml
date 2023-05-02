@@ -4,20 +4,27 @@ dependencies:
   module:
     - options
     - paragraphs
-_core:
-  default_config_hash: dpZjX56cuKh61ITiZGF2QybfshYSafDzt2JMyMQEwYY
-id: paragraph.field_pcol_width
-field_name: field_pcol_width
+id: paragraph.field_pc_block_bkgd_color
+field_name: field_pc_block_bkgd_color
 entity_type: paragraph
 type: list_string
 settings:
   allowed_values:
     -
-      value: container-fluid
-      label: 'Full Width'
+      value: purple-back
+      label: purple
     -
-      value: container
-      label: 'Contained Width'
+      value: blue-back
+      label: blue
+    -
+      value: black-back
+      label: black
+    -
+      value: gray-back
+      label: gray
+    -
+      value: white-back
+      label: white
   allowed_values_function: ''
 module: options
 locked: false

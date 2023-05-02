@@ -5,22 +5,19 @@ dependencies:
     - options
     - paragraphs
 _core:
-  default_config_hash: oDoxuh-ELbNIK_qpEmwQ_zqoAktP1UlAgoikE6oT25s
-id: paragraph.field_pcol_column_layout
-field_name: field_pcol_column_layout
+  default_config_hash: dpZjX56cuKh61ITiZGF2QybfshYSafDzt2JMyMQEwYY
+id: paragraph.field_pc_width
+field_name: field_pc_width
 entity_type: paragraph
 type: list_string
 settings:
   allowed_values:
     -
-      value: '50'
-      label: 50-50
+      value: container-fluid
+      label: 'Full Width'
     -
-      value: '75'
-      label: 75-25
-    -
-      value: '25'
-      label: 75-25
+      value: container
+      label: 'Contained Width'
   allowed_values_function: ''
 module: options
 locked: false

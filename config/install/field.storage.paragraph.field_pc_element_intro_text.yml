@@ -3,14 +3,15 @@ status: true
 dependencies:
   module:
     - paragraphs
+    - text
 _core:
-  default_config_hash: _5RcJenCrkYAqlVK2OCNpi4XU9dMWmC4SbOGK9Y3qMk
-id: paragraph.field_pcol_add_gutters
-field_name: field_pcol_add_gutters
+  default_config_hash: zyMvqM36_0ZBjJ_gPZ6q7Hg0ZdF60km4uyBFRun6zig
+id: paragraph.field_pc_element_intro_text
+field_name: field_pc_element_intro_text
 entity_type: paragraph
-type: boolean
+type: text_long
 settings: {  }
-module: core
+module: text
 locked: false
 cardinality: 1
 translatable: true
