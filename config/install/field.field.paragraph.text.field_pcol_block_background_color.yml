@@ -2,12 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_block_background_color
+    - field.storage.paragraph.field_pcol_block_background_color
     - paragraphs.paragraphs_type.text
   module:
     - options
-id: paragraph.text.field_block_background_color
-field_name: field_block_background_color
+id: paragraph.text.field_pcol_block_background_color
+field_name: field_pcol_block_background_color
 entity_type: paragraph
 bundle: text
 label: 'Background Color'

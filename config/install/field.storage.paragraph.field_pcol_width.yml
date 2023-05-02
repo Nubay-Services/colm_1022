@@ -6,8 +6,8 @@ dependencies:
     - paragraphs
 _core:
   default_config_hash: dpZjX56cuKh61ITiZGF2QybfshYSafDzt2JMyMQEwYY
-id: paragraph.field_width
-field_name: field_width
+id: paragraph.field_pcol_width
+field_name: field_pcol_width
 entity_type: paragraph
 type: list_string
 settings:

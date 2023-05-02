@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_column_layout
+    - field.storage.paragraph.field_pcol_column_layout
     - paragraphs.paragraphs_type.columns
   module:
     - options
 _core:
   default_config_hash: tp7QpHm9r9WckSSF-TQC4SC5IB_BjLHs5aX8K8LxAGU
-id: paragraph.columns.field_column_layout
-field_name: field_column_layout
+id: paragraph.columns.field_pcol_column_layout
+field_name: field_pcol_column_layout
 entity_type: paragraph
 bundle: columns
 label: 'Column Layout'

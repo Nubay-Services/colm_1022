@@ -6,8 +6,8 @@ dependencies:
     - paragraphs
 _core:
   default_config_hash: oDoxuh-ELbNIK_qpEmwQ_zqoAktP1UlAgoikE6oT25s
-id: paragraph.field_column_layout
-field_name: field_column_layout
+id: paragraph.field_pcol_column_layout
+field_name: field_pcol_column_layout
 entity_type: paragraph
 type: list_string
 settings:

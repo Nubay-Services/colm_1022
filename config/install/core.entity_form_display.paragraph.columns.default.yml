@@ -25,28 +25,28 @@ targetEntityType: paragraph
 bundle: columns
 mode: default
 content:
-  field_add_gutters:
+  field_pcol_add_gutters:
     type: boolean_checkbox
     weight: 6
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
-  field_background_color_option:
+  field_pcol_background_color_option:
     type: color_field_widget_box
     weight: 3
     region: content
     settings:
       default_colors: '#ac725e,#d06b64,#f83a22,#fa573c,#ff7537,#ffad46,#42d692,#16a765,#7bd148,#b3dc6c,#fbe983,#92e1c0,#9fe1e7,#9fc6e7,#4986e7,#9a9cff,#b99aff,#c2c2c2,#cabdbf,#cca6ac,#f691b2,#cd74e6,#a47ae2'
     third_party_settings: {  }
-  field_button_background_color:
+  field_pcol_button_background_color:
     type: color_field_widget_box
     weight: 10
     region: content
     settings:
       default_colors: '#ac725e,#d06b64,#f83a22,#fa573c,#ff7537,#ffad46,#42d692,#16a765,#7bd148,#b3dc6c,#fbe983,#92e1c0,#9fe1e7,#9fc6e7,#4986e7,#9a9cff,#b99aff,#c2c2c2,#cabdbf,#cca6ac,#f691b2,#cd74e6,#a47ae2'
     third_party_settings: {  }
-  field_button_link:
+  field_pcol_button_link:
     type: link_default
     weight: 9
     region: content
@@ -54,7 +54,7 @@ content:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-  field_column_layout:
+  field_pcol_column_layout:
     type: options_select
     weight: 2
     region: content
@@ -64,7 +64,7 @@ content:
         8ffa3a3c-37da-42e7-9a8b-412a6af27bb1:
           entity_type: paragraph
           bundle: columns
-          dependee: field_number_of_columns
+          dependee: field_pcol_number_of_columns
           settings:
             state: visible
             condition: value
@@ -79,7 +79,7 @@ content:
             effect_options: {  }
             selector: ''
             regex: '2'
-  field_element_intro_text:
+  field_pcol_element_intro_text:
     type: text_textarea
     weight: 7
     region: content
@@ -87,7 +87,7 @@ content:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-  field_element_selection:
+  field_pcol_element_selection:
     type: paragraphs
     weight: 8
     region: content
@@ -105,13 +105,13 @@ content:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
-  field_number_of_columns:
+  field_pcol_number_of_columns:
     type: options_select
     weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_section_title:
+  field_pcol_section_title:
     type: string_textfield
     weight: 0
     region: content
@@ -119,7 +119,7 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_width:
+  field_pcol_width:
     type: options_select
     weight: 5
     region: content

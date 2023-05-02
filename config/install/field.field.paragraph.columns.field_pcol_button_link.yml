@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_button_link
+    - field.storage.paragraph.field_pcol_button_link
     - paragraphs.paragraphs_type.columns
   module:
     - link
 _core:
   default_config_hash: BccaS73EMT3I48g502ClWLGbD7n_Erv7OsR-FUMXreI
-id: paragraph.columns.field_button_link
-field_name: field_button_link
+id: paragraph.columns.field_pcol_button_link
+field_name: field_pcol_button_link
 entity_type: paragraph
 bundle: columns
 label: 'Button Link'

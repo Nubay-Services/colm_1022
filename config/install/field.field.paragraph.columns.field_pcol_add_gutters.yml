@@ -2,12 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_add_gutters
+    - field.storage.paragraph.field_pcol_add_gutters
     - paragraphs.paragraphs_type.columns
 _core:
   default_config_hash: rAKI_3-LGKPs5cV7kmSYFjNA6x6qslcCYUGEBeN5Q3w
-id: paragraph.columns.field_add_gutters
-field_name: field_add_gutters
+id: paragraph.columns.field_pcol_add_gutters
+field_name: field_pcol_add_gutters
 entity_type: paragraph
 bundle: columns
 label: 'Add Gutters?'

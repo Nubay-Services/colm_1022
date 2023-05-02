@@ -2,12 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_section_title
+    - field.storage.paragraph.field_pcol_section_title
     - paragraphs.paragraphs_type.columns
 _core:
   default_config_hash: AOMLbmvIkUepmhmZr7P9fYxPbO5DCUVUCb92ruzTB1Q
-id: paragraph.columns.field_section_title
-field_name: field_section_title
+id: paragraph.columns.field_pcol_section_title
+field_name: field_pcol_section_title
 entity_type: paragraph
 bundle: columns
 label: 'Section Title'

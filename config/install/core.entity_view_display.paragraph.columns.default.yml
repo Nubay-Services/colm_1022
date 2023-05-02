@@ -25,7 +25,7 @@ targetEntityType: paragraph
 bundle: columns
 mode: default
 content:
-  field_background_color_option:
+  field_pcol_background_color_option:
     type: color_field_formatter_text
     label: hidden
     settings:
@@ -34,7 +34,7 @@ content:
     third_party_settings: {  }
     weight: 4
     region: content
-  field_button_background_color:
+  field_pcol_button_background_color:
     type: color_field_formatter_text
     label: hidden
     settings:
@@ -43,7 +43,7 @@ content:
     third_party_settings: {  }
     weight: 5
     region: content
-  field_button_link:
+  field_pcol_button_link:
     type: link
     label: hidden
     settings:
@@ -55,14 +55,14 @@ content:
     third_party_settings: {  }
     weight: 3
     region: content
-  field_element_intro_text:
+  field_pcol_element_intro_text:
     type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 1
     region: content
-  field_element_selection:
+  field_pcol_element_selection:
     type: entity_reference_revisions_entity_view
     label: hidden
     settings:
@@ -71,7 +71,7 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
-  field_section_title:
+  field_pcol_section_title:
     type: string
     label: hidden
     settings:
@@ -80,7 +80,7 @@ content:
     weight: 0
     region: content
 hidden:
-  field_add_gutters: true
-  field_column_layout: true
-  field_number_of_columns: true
-  field_width: true
+  field_pcol_add_gutters: true
+  field_pcol_column_layout: true
+  field_pcol_number_of_columns: true
+  field_pcol_width: true

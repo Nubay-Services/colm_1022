@@ -4,8 +4,8 @@ dependencies:
   module:
     - color_field
     - paragraphs
-id: paragraph.field_background_color_option
-field_name: field_background_color_option
+id: paragraph.field_pcol_background_color_option
+field_name: field_pcol_background_color_option
 entity_type: paragraph
 type: color_field_type
 settings:

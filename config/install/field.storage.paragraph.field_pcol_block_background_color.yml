@@ -4,8 +4,8 @@ dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.field_block_background_color
-field_name: field_block_background_color
+id: paragraph.field_pcol_block_background_color
+field_name: field_pcol_block_background_color
 entity_type: paragraph
 type: list_string
 settings:

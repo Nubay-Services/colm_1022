@@ -6,8 +6,8 @@ dependencies:
     - text
 _core:
   default_config_hash: zyMvqM36_0ZBjJ_gPZ6q7Hg0ZdF60km4uyBFRun6zig
-id: paragraph.field_element_intro_text
-field_name: field_element_intro_text
+id: paragraph.field_pcol_element_intro_text
+field_name: field_pcol_element_intro_text
 entity_type: paragraph
 type: text_long
 settings: {  }

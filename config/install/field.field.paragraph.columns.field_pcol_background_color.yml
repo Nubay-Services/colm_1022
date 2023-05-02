@@ -2,12 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_background_color
+    - field.storage.paragraph.field_pcol_background_color
     - paragraphs.paragraphs_type.columns
   module:
     - options
-id: paragraph.columns.field_background_color
-field_name: field_background_color
+id: paragraph.columns.field_pcol_background_color
+field_name: field_pcol_background_color
 entity_type: paragraph
 bundle: columns
 label: 'Button Color'

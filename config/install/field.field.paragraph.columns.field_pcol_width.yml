@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_width
+    - field.storage.paragraph.field_pcol_width
     - paragraphs.paragraphs_type.columns
   module:
     - options
 _core:
   default_config_hash: FMau3Oc259a1NlSgulzqmJV6O9kTp9fr0oy6DtTCMjI
-id: paragraph.columns.field_width
-field_name: field_width
+id: paragraph.columns.field_pcol_width
+field_name: field_pcol_width
 entity_type: paragraph
 bundle: columns
 label: Width
