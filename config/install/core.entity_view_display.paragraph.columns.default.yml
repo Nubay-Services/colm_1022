@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.columns.field_add_gutters
-    - field.field.paragraph.columns.field_background_color_option
-    - field.field.paragraph.columns.field_button_background_color
-    - field.field.paragraph.columns.field_button_link
-    - field.field.paragraph.columns.field_column_layout
-    - field.field.paragraph.columns.field_element_intro_text
-    - field.field.paragraph.columns.field_element_selection
-    - field.field.paragraph.columns.field_number_of_columns
-    - field.field.paragraph.columns.field_section_title
-    - field.field.paragraph.columns.field_width
+    - field.field.paragraph.columns.field_pcol_add_gutters
+    - field.field.paragraph.columns.field_pcol_background_color_option
+    - field.field.paragraph.columns.field_pcol_button_background_color
+    - field.field.paragraph.columns.field_pcol_button_link
+    - field.field.paragraph.columns.field_pcol_column_layout
+    - field.field.paragraph.columns.field_pcol_element_intro_text
+    - field.field.paragraph.columns.field_pcol_element_selection
+    - field.field.paragraph.columns.field_pcol_number_of_columns
+    - field.field.paragraph.columns.field_pcol_section_title
+    - field.field.paragraph.columns.field_pcol_width
     - paragraphs.paragraphs_type.columns
   module:
     - color_field

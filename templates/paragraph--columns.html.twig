@@ -17,14 +17,14 @@
   not paragraph.isPublished() ? 'paragraph--unpublished',
 ]
 %}
-{% set columns = paragraph.field_number_of_columns.value %}
-{% if paragraph.field_background_color_option.0.value.color|render %}
-  {% set backColor = paragraph.field_background_color_option.0.value.color %}
+{% set columns = paragraph.field_pcol_number_of_columns.value %}
+{% if paragraph.field_pcol_background_color_option.0.value.color|render %}
+  {% set backColor = paragraph.field_pcol_background_color_option.0.value.color %}
   {% set blockPadding = 'block-padding' %}
 {% endif %}
-{% set width = paragraph.field_width.value %}
-{% set layout = paragraph.field_column_layout.value %}
-{% set buttonBackColor = paragraph.field_button_background_color.0.value.color %}
+{% set width = paragraph.field_pcol_width.value %}
+{% set layout = paragraph.field_pcol_column_layout.value %}
+{% set buttonBackColor = paragraph.field_pcol_button_background_color.0.value.color %}
 
   {% if layout == '75' %}
     {% set layout_1 = 'col-8' %}
@@ -34,27 +34,27 @@
     {% set layout_2 = 'col-8' %}
   {% endif %}
 
-{% set par1 = paragraph.field_element_selection.0.entity.target_id %}
-{% set par2 = paragraph.field_element_selection.1.entity.target_id  %}
+{% set par1 = paragraph.field_pcol_element_selection.0.entity.target_id %}
+{% set par2 = paragraph.field_pcol_element_selection.1.entity.target_id  %}
 
-{% if paragraph.field_add_gutters.value == TRUE %}
+{% if paragraph.field_pcol_add_gutters.value == TRUE %}
   {% set gutters = 'gutters' %}
 {% endif %}
 
 {% block paragraph %}
   <div{{attributes.addClass(classes, blockPadding)}} style="background-color:{{ backColor }};">
     <section class="{{ width }}">
-      <h2>{{ content.field_section_title }}</h2>
-      {{ content.field_element_intro_text }}
+      <h2>{{ content.field_pcol_section_title }}</h2>
+      {{ content.field_pcol_element_intro_text }}
       {% if (layout == '25') or (layout == '75') %}
-        {% for key, item in paragraph.field_element_selection %}
+        {% for key, item in paragraph.field_pcol_element_selection %}
           {% if key == '0' %}
             <div class="col {{ layout_1 }} {{ gutters }}">
               {{ drupal_entity('paragraph', item.target_id) }}
             </div>
           {% endif %}
         {% endfor %}
-        {% for key, item in paragraph.field_element_selection %}
+        {% for key, item in paragraph.field_pcol_element_selection %}
           {% if key == '1' %}
             <div class="col {{ layout_2 }} {{ gutters }}">
               {{ drupal_entity('paragraph', item.target_id) }}
@@ -62,7 +62,7 @@
           {% endif %}
         {% endfor %}
       {% else %}
-        {% for item in paragraph.field_element_selection %}
+        {% for item in paragraph.field_pcol_element_selection %}
           <div class="col {{ columns }} {{ gutters }}">
             {{ drupal_entity('paragraph', item.target_id) }}
           </div>
@@ -70,8 +70,8 @@
       {% endif %}
 
 
-      {% if content.field_button_link|render %}
-        <div class="clearfix btn {{ gutters }}" style="background-color:{{ buttonBackColor }}"> {{ content.field_button_link }}</div>
+      {% if content.field_pcol_button_link|render %}
+        <div class="clearfix btn {{ gutters }}" style="background-color:{{ buttonBackColor }}"> {{ content.field_pcol_button_link }}</div>
       {% endif %}
     </section>
   </div>
