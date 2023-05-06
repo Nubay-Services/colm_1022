@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_colm_element_intro_text
+    - paragraphs.paragraphs_type.colm-1022
+  module:
+    - text
+_core:
+  default_config_hash: XS2OSGDJQ6yRtnGjzDJtorjnjzevI6B8cq-27L-Oovg
+id: colm.1022.field_colm_element_intro_text
+field_name: field_colm_element_intro_text
+entity_type: paragraph
+bundle: columns
+label: 'Element Intro Text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

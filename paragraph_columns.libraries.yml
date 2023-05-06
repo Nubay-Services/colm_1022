@@ -1,9 +1,0 @@
-columns:
-  css:
-    component:
-      css/paragraph_columns.css: {}
-  js:
-    js/columns.js: { preprocess: false }
-  dependencies:
-    - core/jquery
-    - core/drupalSettings

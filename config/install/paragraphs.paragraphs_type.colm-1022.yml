@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: { }
+id: columns
+label: COLM-1022
+icon_uuid: null
+icon_default: null
+description: 'Used to create group of blocks in columns'
+behavior_plugins: {  }

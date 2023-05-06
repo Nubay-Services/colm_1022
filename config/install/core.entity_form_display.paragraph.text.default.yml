@@ -2,8 +2,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.text.field_pcol_background_color_option
-    - field.field.paragraph.text.field_pcol_text
+    - field.field.paragraph.text.field_bkgd_color_option
+    - field.field.paragraph.text.field_text
     - paragraphs.paragraphs_type.text
   module:
     - color_field
@@ -15,7 +15,7 @@ targetEntityType: paragraph
 bundle: text
 mode: default
 content:
-  field_background_color_option:
+  field_bkgd_color_option:
     type: color_field_widget_box
     weight: 1
     region: content

@@ -1,0 +1,80 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_colm_element_selection
+    - paragraphs.paragraphs_type.colm-1022
+    - paragraphs.paragraphs_type.text
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: VkEjbccpOzxaHU4615Z5slYgD7emCdrCXNSITiQJlq0
+id: colm.1022.field_colm_element_selection
+field_name: field_colm_element_selection
+entity_type: paragraph
+bundle: columns
+label: 'Element Selection'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      image_box: image_box
+      block_with_image: block_with_image
+      drupal_block: drupal_block
+      custom_element: custom_element
+      drupal_view: drupal_view
+      from_library: from_library
+      text: text
+    negate: 0
+    target_bundles_drag_drop:
+      block_with_image:
+        weight: 16
+        enabled: true
+      button:
+        weight: 6
+        enabled: false
+      columns:
+        weight: 7
+        enabled: false
+      committee_chairs:
+        weight: 8
+        enabled: false
+      content_reference:
+        weight: 15
+        enabled: false
+      custom_element:
+        weight: 17
+        enabled: true
+      drupal_block:
+        weight: 16
+        enabled: true
+      drupal_view:
+        weight: 17
+        enabled: true
+      from_library:
+        weight: 18
+        enabled: true
+      image_box:
+        weight: 9
+        enabled: true
+      news_contacts:
+        weight: 26
+        enabled: false
+      news_release_footer:
+        weight: 27
+        enabled: false
+      page_banner:
+        weight: 10
+        enabled: false
+      sign_up_block:
+        weight: 21
+        enabled: false
+      text:
+        weight: 22
+        enabled: true
+field_type: entity_reference_revisions

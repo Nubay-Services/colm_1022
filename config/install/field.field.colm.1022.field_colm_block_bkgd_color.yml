@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block_bkgd_color
+    - paragraphs.paragraphs_type.colm-1022
+  module:
+    - options
+id: colm.1022.field_block_bkgd_color
+field_name: field_block_bkgd_color
+entity_type: paragraph
+bundle: columns
+label: 'Background Color'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_colm_add_gutters
+    - paragraphs.paragraphs_type.colm-1022
+_core:
+  default_config_hash: rAKI_3-LGKPs5cV7kmSYFjNA6x6qslcCYUGEBeN5Q3w
+id: colm.1022.field_colm_add_gutters
+field_name: field_colm_add_gutters
+entity_type: paragraph
+bundle: columns
+label: 'Add Gutters?'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

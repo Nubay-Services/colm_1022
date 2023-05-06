@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_colm_number_of_columns
+    - paragraphs.paragraphs_type.colm-1022
+  module:
+    - options
+_core:
+  default_config_hash: NOA0mNw4KnjSoVv3g3Q8M92R558_m6EMu-6f6bEvC6E
+id: colm.1022.field_colm_number_of_columns
+field_name: field_colm_number_of_columns
+entity_type: paragraph
+bundle: columns
+label: 'Number of Columns'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: col-6
+default_value_callback: ''
+settings: {  }
+field_type: list_string

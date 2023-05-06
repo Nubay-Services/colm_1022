@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_block_bkgd_color
+field_name: field_block_bkgd_color
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: purple-back
+      label: purple
+    -
+      value: blue-back
+      label: blue
+    -
+      value: black-back
+      label: black
+    -
+      value: gray-back
+      label: gray
+    -
+      value: white-back
+      label: white
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

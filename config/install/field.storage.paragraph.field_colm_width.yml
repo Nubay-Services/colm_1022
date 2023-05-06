@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: dpZjX56cuKh61ITiZGF2QybfshYSafDzt2JMyMQEwYY
+id: paragraph.field_colm_width
+field_name: field_colm_width
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: container-fluid
+      label: 'Full Width'
+    -
+      value: container
+      label: 'Contained Width'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
