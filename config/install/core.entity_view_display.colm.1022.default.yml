@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.colm.1022.field_colm_add_gutters
-    - field.field.colm.1022.field_bkgd_color_option
+    - field.field.colm.1022.field_colm_bkgd_color_option
     - field.field.colm.1022.field_colm_btn_bkgd_color
     - field.field.colm.1022.field_colm_button_link
     - field.field.colm.1022.field_colm_column_layout
@@ -25,7 +25,7 @@ targetEntityType: paragraph
 bundle: columns
 mode: default
 content:
-  field_bkgd_color_option:
+  field_colm_bkgd_color_option:
     type: color_field_formatter_text
     label: hidden
     settings:

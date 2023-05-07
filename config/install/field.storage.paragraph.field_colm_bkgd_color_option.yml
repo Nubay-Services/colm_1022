@@ -4,8 +4,8 @@ dependencies:
   module:
     - color_field
     - paragraphs
-id: paragraph.field_bkgd_color_option
-field_name: field_bkgd_color_option
+id: paragraph.field_colm_bkgd_color_option
+field_name: field_colm_bkgd_color_option
 entity_type: paragraph
 type: color_field_type
 settings:
