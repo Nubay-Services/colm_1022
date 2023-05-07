@@ -1,7 +1,7 @@
 columns:
   css:
     component:
-      css/coom-1022.css: {}
+      css/colm-1022.css: {}
   js:
     js/columns.js: { preprocess: false }
   dependencies:
