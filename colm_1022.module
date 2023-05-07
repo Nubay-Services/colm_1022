@@ -16,7 +16,7 @@ function colm_1022_page_attachments(array &$page) {
  */
 function colm_1022_theme($existing, $type, $theme, $path) {
   return [
-    'colm__1022' => [
+    'paragraph__colm__1022' => [
       'base hook' => 'paragraph',
     ],
     'paragraph__text' => [
