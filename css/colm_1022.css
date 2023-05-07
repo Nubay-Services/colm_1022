@@ -1,19 +1,19 @@
-.paragraph--type--colm-1022 .field-paragraph--field-pcol-element-intro-text {
+.paragraph--type--columns .field-paragraph--field-pcol-element-intro-text {
   margin-bottom: 25px;
 }
-.paragraph--type--colm-1022 .col {
+.paragraph--type--columns .col {
   position: relative;
 }
-.paragraph--type--colm-1022.gray-back {
+.paragraph--type--columns.gray-back {
   padding-bottom: 30px;
 }
-.paragraph--type--colm-1022 h2.element-title {
+.paragraph--type--columns h2.element-title {
   padding-top: 0;
 }
-.paragraph--type--colm-1022 .clearfix{
+.paragraph--type--columns .clearfix{
   clear: both;
 }
-.paragraph--type--colm-1022 .btn {
+.paragraph--type--columns .btn {
   width: auto;
   position: relative;
   -webkit-box-sizing: border-box;
@@ -25,60 +25,60 @@
   margin-bottom: 0.625em;
 }
 
-.paragraph--type--colm-1022 .field-paragraph--field-pcol-button-link a {
+.paragraph--type--columns .field-paragraph--field-pcol-button-link a {
   text-align: center;
   line-height: 2rem;
 }
 
 @media all and (min-width: 1025px) {
 
-  .paragraph--type--colm-1022 .col {
+  .paragraph--type--columns .col {
     overflow: hidden;
   }
 
-  .paragraph--type--colm-1022 .col.col-2 {
+  .paragraph--type--columns .col.col-2 {
     width: 16%;
     float: left;
   }
 
-  .paragraph--type--colm-1022 .col.col-3 {
+  .paragraph--type--columns .col.col-3 {
     width: 25%;
     float: left;
   }
 
-  .paragraph--type--colm-1022 .col.col-4 {
+  .paragraph--type--columns .col.col-4 {
     width: 33.333%;
     float: left;
   }
 
-  .paragraph--type--colm-1022 .col.col-6 {
+  .paragraph--type--columns .col.col-6 {
     width: 50%;
     float: left;
   }
 
-  .paragraph--type--colm-1022 .col.col-8 {
+  .paragraph--type--columns .col.col-8 {
     width: 66.666%;
     float: left;
   }
 
-  .paragraph--type--colm-1022 .col.gutters > div {
+  .paragraph--type--columns .col.gutters > div {
     padding-left: 0.625em;
     padding-right: 0.625em;
   }
 
-  .paragraph--type--colm-1022 .col.gutters:first-of-type > div {
+  .paragraph--type--columns .col.gutters:first-of-type > div {
     padding-left: 0;
     padding-right: 0.625em;
   }
 
-  .paragraph--type--colm-1022 .col.gutters:last-of-type > div {
+  .paragraph--type--columns .col.gutters:last-of-type > div {
     padding-left: 0.625em;
     padding-right: 0;
   }
 }
 
 @media all and (max-width: 1024px) {
-  .paragraph--type--colm-1022 .col {
+  .paragraph--type--columns .col {
     float: none;
     overflow: hidden;
   }
