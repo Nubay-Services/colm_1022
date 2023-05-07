@@ -18,13 +18,13 @@
 ]
 %}
 {% set columns = paragraph.field_colm_number_of_columns.value %}
-{% if paragraph.field_colm_background_color_option.0.value.color|render %}
-  {% set backColor = paragraph.field_colm_background_color_option.0.value.color %}
+{% if paragraph.field_colm_bkgd_color_option.0.value.color|render %}
+  {% set backColor = paragraph.field_colm_bkgd_color_option.0.value.color %}
   {% set blockPadding = 'block-padding' %}
 {% endif %}
 {% set width = paragraph.field_colm_width.value %}
 {% set layout = paragraph.field_colm_column_layout.value %}
-{% set buttonBackColor = paragraph.field_colm_button_background_color.0.value.color %}
+{% set buttonBackColor = paragraph.field_colm_btn_bkgd_color.0.value.color %}
 
   {% if layout == '75' %}
     {% set layout_1 = 'col-8' %}
