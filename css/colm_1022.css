@@ -1,3 +1,6 @@
+.paragraph--type--columns {
+    overflow: hidden;
+}
 .paragraph--type--columns .field-paragraph--field-pcol-element-intro-text {
   margin-bottom: 25px;
 }
